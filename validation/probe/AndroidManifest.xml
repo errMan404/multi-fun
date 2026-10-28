@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.myapp.compatprobe" android:versionCode="2" android:versionName="0.2">
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="35" />
+    <application android:label="Compat Probe" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:supportsRtl="true" android:debuggable="true">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name=".WorkerService$Worker1" android:process=":probe1" android:exported="false" />
+        <service android:name=".WorkerService$Worker2" android:process=":probe2" android:exported="false" />
+        <service android:name=".WorkerService$Worker3" android:process=":probe3" android:exported="false" />
+        <service android:name=".WorkerService$Worker4" android:process=":probe4" android:exported="false" />
+        <service android:name=".WorkerService$Worker5" android:process=":probe5" android:exported="false" />
+    </application>
+</manifest>

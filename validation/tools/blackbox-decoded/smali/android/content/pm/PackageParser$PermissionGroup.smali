@@ -1,0 +1,102 @@
+.class public final Landroid/content/pm/PackageParser$PermissionGroup;
+.super Landroid/content/pm/PackageParser$Component;
+.source "r8-map-id-b030d4079bf46d1be0bde84446c3eaf9c7aec13dc1c4fe379a76cc83ba4f4ecf"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/content/pm/PackageParser;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "PermissionGroup"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/content/pm/PackageParser$Component<",
+        "Landroid/content/pm/PackageParser$IntentInfo;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final info:Landroid/content/pm/PermissionGroupInfo;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/pm/PackageParser$Package;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0, p1}, Landroid/content/pm/PackageParser$Component;-><init>(Landroid/content/pm/PackageParser$Package;)V
+
+    .line 2
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    const-string v0, "Stub!"
+
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public constructor <init>(Landroid/content/pm/PackageParser$Package;Landroid/content/pm/PermissionGroupInfo;)V
+    .locals 0
+
+    .line 3
+    invoke-direct {p0, p1}, Landroid/content/pm/PackageParser$Component;-><init>(Landroid/content/pm/PackageParser$Package;)V
+
+    .line 4
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    const-string p2, "Stub!"
+
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+
+# virtual methods
+.method public setPackageName(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    new-instance p1, Ljava/lang/RuntimeException;
+
+    .line 2
+    .line 3
+    const-string v0, "Stub!"
+
+    .line 4
+    .line 5
+    invoke-direct {p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    throw p1
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    .line 2
+    .line 3
+    const-string v1, "Stub!"
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    throw v0
+.end method

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="48.0dp" android:layout_height="48.0dp" />
+        <com.othershe.cornerlabelview.CornerLabelView android:layout_gravity="start|top" android:id="@id/cornerLabel" android:visibility="invisible" android:layout_width="24.0dp" android:layout_height="24.0dp" app:bg_color="@color/primary" app:position="left_top" app:side_length="22.0dp" app:text="XP" app:text_color="@color/white" app:text_size="8.0sp" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/primary_text" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" />
+</LinearLayout>

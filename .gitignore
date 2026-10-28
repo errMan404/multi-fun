@@ -1,0 +1,23 @@
+# Generated output and machine-specific tools
+validation/tools/*
+!validation/tools/BlackBoxReborn-v2.1.0.apk
+!validation/tools/apktool_3.0.3.jar
+!validation/tools/blackbox-decoded/
+!validation/tools/engine-source/
+validation/probe/build/
+validation/engine-diagnostics/build/
+validation/shared-route-probe/build/
+validation/engine-diagnostics/experiments/
+validation/references/
+validation/evidence/
+validation/handoff_status.json
+exports/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local signing keys and credentials stay on the debugging machine
+*.keystore
+*.jks
+.env
+.env.*

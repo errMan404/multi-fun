@@ -1,0 +1,26 @@
+multi-fun / 多开空间源码入口
+
+当前版本：454 / 4.4.4-device-permission。
+完整构建、签名说明与验证范围请先阅读根目录 README.md。
+
+这是 Android APK 工程，使用固定 BlackBoxReborn 基线、Python 补丁和 Java 辅助代码构建。
+支持原生 Android 调试；历史鸿蒙测试通过卓易通 Android 环境运行，不是原生 HAP。
+
+构建环境：Python 3.9+、JDK 17+、Android SDK Build Tools 35.0.0 与 API 35。
+设置 JAVA_HOME、ANDROID_HOME 后执行：
+  Windows: build.cmd --check，然后 build.cmd
+  macOS/Linux: python3 build.py --check，然后 python3 build.py
+
+产物：validation/engine-diagnostics/build/blackbox-diagnostics.apk
+
+Git 仓库不上传本地签名私钥。首次完整构建会生成新的 debug.keystore。
+如需覆盖更新原手机已有安装，应单独复制原调试电脑的
+validation/probe/debug.keystore；不要卸载原应用以免丢失空间数据。
+
+v454 包含：五空间无动画切换、首页将军令管理、独立空间 5 的共享调用，
+以及 Android 16 验证码 WebView 联网权限识别修复。
+鸿蒙空间 0 的真实自动导入已验证；原生 Android 验证图已验证。
+原生 Android 完整游戏授权、其他空间真实授权和长期稳定性仍待验证。
+
+历史 Windows v448 压缩包是独立快照，内容与当前 GitHub 源码不同。
+历史证据与源码快照保留在原调试电脑；Git 仓库不包含这些大文件。

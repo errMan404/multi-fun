@@ -1,0 +1,14 @@
+{
+  "game": {
+    "filename": "Xyqmy-2.6.3.apk",
+    "url": "https://mhxyxxsj.gdl.netease.com/Xyqmy-2.6.3.apk",
+    "sha256": "138417b123c05aa1433df0ff5080d16d3bbdf58905a11a3fe39925a95a6e6472",
+    "version": "2.6.3 / 50063"
+  },
+  "mkey": {
+    "filename": "mkey-5.5.3-build93.apk",
+    "url": "https://service.mkey.163.com/static/dl/mkey-latest.apk",
+    "sha256": "2af58e862862d71f8aa9bdba4d232a7bb29d958b5ff4c71d9e3c3c40b07a617d",
+    "version": "5.5.3 Build 93 / 695"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/primary_text" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dp" />
+    <Switch android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dp" android:paddingStart="0.0dp" />
+</LinearLayout>

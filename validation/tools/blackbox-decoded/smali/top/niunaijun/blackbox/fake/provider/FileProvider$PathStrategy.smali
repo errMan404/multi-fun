@@ -1,0 +1,22 @@
+.class interface abstract Ltop/niunaijun/blackbox/fake/provider/FileProvider$PathStrategy;
+.super Ljava/lang/Object;
+.source "r8-map-id-b030d4079bf46d1be0bde84446c3eaf9c7aec13dc1c4fe379a76cc83ba4f4ecf"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltop/niunaijun/blackbox/fake/provider/FileProvider;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "PathStrategy"
+.end annotation
+
+
+# virtual methods
+.method public abstract getFileForUri(Landroid/net/Uri;)Ljava/io/File;
+.end method
+
+.method public abstract getUriForFile(Ljava/io/File;)Landroid/net/Uri;
+.end method
